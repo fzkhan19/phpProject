@@ -1,0 +1,39 @@
+.gridlayout{
+	display: grid;
+	border: 1px solid red;
+	height: 99vh;
+	max-width: 1250px;
+	margin: auto;
+}
+
+.gluco {
+	grid-template-rows: 1fr 8fr 1fr;
+}
+
+/*.gluco main {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	border: 1px solid black;
+
+}*/
+
+main{
+	display: flex;
+}
+main aside{
+	border: 1px solid yellow;
+	padding: 10px;
+}
+
+.gluco header {
+	border: 1px solid blue;
+
+}
+
+.gluco footer {
+	border: 1px solid pink;
+}
+
+@media only screen and (max-width: 1250px) {
+}
+

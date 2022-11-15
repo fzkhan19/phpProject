@@ -1,0 +1,337 @@
+:root {
+  --cir-pri-color: blue;
+  --cir-sec-color: white;
+}
+
+/* Circular percantage bar display ----------------------------------------------------------------------------------------*/
+
+.cir-per-display {
+  position: relative;
+  width: 400px; /*Change to your need try to keep circle*/
+  height: 400px;
+  /*background-image: conic-gradient(orange 70%, blue 70% 90% , red 90% 100%); use this to change in js*/ 
+  border-radius: 50%;
+}
+
+.cir-per-display .cpdmaindisplay{
+	position: absolute;
+	width:300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.cir-per-display .cpdmaindisplay p{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: black;
+	font-size: 20px;
+}
+
+.cpd0{
+	background-image: conic-gradient(var(--cir-sec-color) 100%);
+}
+.cpd1{
+	background-image: conic-gradient(var(--cir-pri-color) 1%, var(--cir-sec-color) 1% 100%);
+}
+.cpd2{
+	background-image: conic-gradient(var(--cir-pri-color) 2%, var(--cir-sec-color) 2% 100%);
+}
+.cpd3{
+	background-image: conic-gradient(var(--cir-pri-color) 3%, var(--cir-sec-color) 3% 100%);
+}
+.cpd4{
+	background-image: conic-gradient(var(--cir-pri-color) 4%, var(--cir-sec-color) 4% 100%);
+}
+.cpd5{
+	background-image: conic-gradient(var(--cir-pri-color) 5%, var(--cir-sec-color) 5% 100%);
+}
+.cpd6{
+	background-image: conic-gradient(var(--cir-pri-color) 6%, var(--cir-sec-color) 6% 100%);
+}
+.cpd7{
+	background-image: conic-gradient(var(--cir-pri-color) 7%, var(--cir-sec-color) 7% 100%);
+}
+.cpd8{
+	background-image: conic-gradient(var(--cir-pri-color) 8%, var(--cir-sec-color) 8% 100%);
+}
+.cpd9{
+	background-image: conic-gradient(var(--cir-pri-color) 9%, var(--cir-sec-color) 9% 100%);
+}
+.cpd10{
+	background-image: conic-gradient(var(--cir-pri-color) 10%, var(--cir-sec-color) 10% 100%);
+}
+.cpd11{
+	background-image: conic-gradient(var(--cir-pri-color) 11%, var(--cir-sec-color) 11% 100%);
+}
+.cpd12{
+	background-image: conic-gradient(var(--cir-pri-color) 12%, var(--cir-sec-color) 12% 100%);
+}
+.cpd13{
+	background-image: conic-gradient(var(--cir-pri-color) 13%, var(--cir-sec-color) 13% 100%);
+}
+.cpd14{
+	background-image: conic-gradient(var(--cir-pri-color) 14%, var(--cir-sec-color) 14% 100%);
+}
+.cpd15{
+	background-image: conic-gradient(var(--cir-pri-color) 15%, var(--cir-sec-color) 15% 100%);
+}
+.cpd16{
+	background-image: conic-gradient(var(--cir-pri-color) 16%, var(--cir-sec-color) 16% 100%);
+}
+.cpd17{
+	background-image: conic-gradient(var(--cir-pri-color) 17%, var(--cir-sec-color) 17% 100%);
+}
+.cpd18{
+	background-image: conic-gradient(var(--cir-pri-color) 18%, var(--cir-sec-color) 18% 100%);
+}
+.cpd19{
+	background-image: conic-gradient(var(--cir-pri-color) 19%, var(--cir-sec-color) 19% 100%);
+}
+.cpd20{
+	background-image: conic-gradient(var(--cir-pri-color) 20%, var(--cir-sec-color) 20% 100%);
+}
+.cpd21{
+	background-image: conic-gradient(var(--cir-pri-color) 21%, var(--cir-sec-color) 21% 100%);
+}
+.cpd22{
+	background-image: conic-gradient(var(--cir-pri-color) 22%, var(--cir-sec-color) 22% 100%);
+}
+.cpd23{
+	background-image: conic-gradient(var(--cir-pri-color) 23%, var(--cir-sec-color) 23% 100%);
+}
+.cpd24{
+	background-image: conic-gradient(var(--cir-pri-color) 24%, var(--cir-sec-color) 24% 100%);
+}
+.cpd25{
+	background-image: conic-gradient(var(--cir-pri-color) 25%, var(--cir-sec-color) 25% 100%);
+}
+.cpd26{
+	background-image: conic-gradient(var(--cir-pri-color) 26%, var(--cir-sec-color) 26% 100%);
+}
+.cpd27{
+	background-image: conic-gradient(var(--cir-pri-color) 27%, var(--cir-sec-color) 27% 100%);
+}
+.cpd28{
+	background-image: conic-gradient(var(--cir-pri-color) 28%, var(--cir-sec-color) 28% 100%);
+}
+.cpd29{
+	background-image: conic-gradient(var(--cir-pri-color) 29%, var(--cir-sec-color) 29% 100%);
+}
+.cpd30{
+	background-image: conic-gradient(var(--cir-pri-color) 30%, var(--cir-sec-color) 30% 100%);
+}
+.cpd31{
+	background-image: conic-gradient(var(--cir-pri-color) 31%, var(--cir-sec-color) 31% 100%);
+}
+.cpd32{
+	background-image: conic-gradient(var(--cir-pri-color) 32%, var(--cir-sec-color) 32% 100%);
+}
+.cpd33{
+	background-image: conic-gradient(var(--cir-pri-color) 33%, var(--cir-sec-color) 33% 100%);
+}
+.cpd34{
+	background-image: conic-gradient(var(--cir-pri-color) 34%, var(--cir-sec-color) 34% 100%);
+}
+.cpd35{
+	background-image: conic-gradient(var(--cir-pri-color) 35%, var(--cir-sec-color) 35% 100%);
+}
+.cpd36{
+	background-image: conic-gradient(var(--cir-pri-color) 36%, var(--cir-sec-color) 36% 100%);
+}
+.cpd37{
+	background-image: conic-gradient(var(--cir-pri-color) 37%, var(--cir-sec-color) 37% 100%);
+}
+.cpd38{
+	background-image: conic-gradient(var(--cir-pri-color) 38%, var(--cir-sec-color) 38% 100%);
+}
+.cpd39{
+	background-image: conic-gradient(var(--cir-pri-color) 39%, var(--cir-sec-color) 39% 100%);
+}
+.cpd40{
+	background-image: conic-gradient(var(--cir-pri-color) 40%, var(--cir-sec-color) 40% 100%);
+}
+.cpd41{
+	background-image: conic-gradient(var(--cir-pri-color) 41%, var(--cir-sec-color) 41% 100%);
+}
+.cpd42{
+	background-image: conic-gradient(var(--cir-pri-color) 42%, var(--cir-sec-color) 42% 100%);
+}
+.cpd43{
+	background-image: conic-gradient(var(--cir-pri-color) 43%, var(--cir-sec-color) 43% 100%);
+}
+.cpd44{
+	background-image: conic-gradient(var(--cir-pri-color) 44%, var(--cir-sec-color) 44% 100%);
+}
+.cpd45{
+	background-image: conic-gradient(var(--cir-pri-color) 45%, var(--cir-sec-color) 45% 100%);
+}
+.cpd46{
+	background-image: conic-gradient(var(--cir-pri-color) 46%, var(--cir-sec-color) 46% 100%);
+}
+.cpd47{
+	background-image: conic-gradient(var(--cir-pri-color) 47%, var(--cir-sec-color) 47% 100%);
+}
+.cpd48{
+	background-image: conic-gradient(var(--cir-pri-color) 48%, var(--cir-sec-color) 48% 100%);
+}
+.cpd49{
+	background-image: conic-gradient(var(--cir-pri-color) 49%, var(--cir-sec-color) 49% 100%);
+}
+.cpd50{
+	background-image: conic-gradient(var(--cir-pri-color) 50%, var(--cir-sec-color) 50% 100%);
+}
+.cpd51{
+	background-image: conic-gradient(var(--cir-pri-color) 51%, var(--cir-sec-color) 51% 100%);
+}
+.cpd52{
+	background-image: conic-gradient(var(--cir-pri-color) 52%, var(--cir-sec-color) 52% 100%);
+}
+.cpd53{
+	background-image: conic-gradient(var(--cir-pri-color) 53%, var(--cir-sec-color) 53% 100%);
+}
+.cpd54{
+	background-image: conic-gradient(var(--cir-pri-color) 54%, var(--cir-sec-color) 54% 100%);
+}
+.cpd55{
+	background-image: conic-gradient(var(--cir-pri-color) 55%, var(--cir-sec-color) 55% 100%);
+}
+.cpd56{
+	background-image: conic-gradient(var(--cir-pri-color) 56%, var(--cir-sec-color) 56% 100%);
+}
+.cpd57{
+	background-image: conic-gradient(var(--cir-pri-color) 57%, var(--cir-sec-color) 57% 100%);
+}
+.cpd58{
+	background-image: conic-gradient(var(--cir-pri-color) 58%, var(--cir-sec-color) 58% 100%);
+}
+.cpd59{
+	background-image: conic-gradient(var(--cir-pri-color) 59%, var(--cir-sec-color) 59% 100%);
+}
+.cpd60{
+	background-image: conic-gradient(var(--cir-pri-color) 60%, var(--cir-sec-color) 60% 100%);
+}
+.cpd61{
+	background-image: conic-gradient(var(--cir-pri-color) 61%, var(--cir-sec-color) 61% 100%);
+}
+.cpd62{
+	background-image: conic-gradient(var(--cir-pri-color) 62%, var(--cir-sec-color) 62% 100%);
+}
+.cpd63{
+	background-image: conic-gradient(var(--cir-pri-color) 63%, var(--cir-sec-color) 63% 100%);
+}
+.cpd64{
+	background-image: conic-gradient(var(--cir-pri-color) 64%, var(--cir-sec-color) 64% 100%);
+}
+.cpd65{
+	background-image: conic-gradient(var(--cir-pri-color) 65%, var(--cir-sec-color) 65% 100%);
+}
+.cpd66{
+	background-image: conic-gradient(var(--cir-pri-color) 66%, var(--cir-sec-color) 66% 100%);
+}
+.cpd67{
+	background-image: conic-gradient(var(--cir-pri-color) 67%, var(--cir-sec-color) 67% 100%);
+}
+.cpd68{
+	background-image: conic-gradient(var(--cir-pri-color) 68%, var(--cir-sec-color) 68% 100%);
+}
+.cpd69{
+	background-image: conic-gradient(var(--cir-pri-color) 69%, var(--cir-sec-color) 69% 100%);
+}
+.cpd70{
+	background-image: conic-gradient(var(--cir-pri-color) 70%, var(--cir-sec-color) 70% 100%);
+}
+.cpd71{
+	background-image: conic-gradient(var(--cir-pri-color) 71%, var(--cir-sec-color) 71% 100%);
+}
+.cpd72{
+	background-image: conic-gradient(var(--cir-pri-color) 72%, var(--cir-sec-color) 72% 100%);
+}
+.cpd73{
+	background-image: conic-gradient(var(--cir-pri-color) 73%, var(--cir-sec-color) 73% 100%);
+}
+.cpd74{
+	background-image: conic-gradient(var(--cir-pri-color) 74%, var(--cir-sec-color) 74% 100%);
+}
+.cpd75{
+	background-image: conic-gradient(var(--cir-pri-color) 75%, var(--cir-sec-color) 75% 100%);
+}
+.cpd76{
+	background-image: conic-gradient(var(--cir-pri-color) 76%, var(--cir-sec-color) 76% 100%);
+}
+.cpd77{
+	background-image: conic-gradient(var(--cir-pri-color) 77%, var(--cir-sec-color) 77% 100%);
+}
+.cpd78{
+	background-image: conic-gradient(var(--cir-pri-color) 78%, var(--cir-sec-color) 78% 100%);
+}
+.cpd79{
+	background-image: conic-gradient(var(--cir-pri-color) 79%, var(--cir-sec-color) 79% 100%);
+}
+.cpd80{
+	background-image: conic-gradient(var(--cir-pri-color) 80%, var(--cir-sec-color) 80% 100%);
+}
+.cpd81{
+	background-image: conic-gradient(var(--cir-pri-color) 81%, var(--cir-sec-color) 81% 100%);
+}
+.cpd82{
+	background-image: conic-gradient(var(--cir-pri-color) 82%, var(--cir-sec-color) 82% 100%);
+}
+.cpd83{
+	background-image: conic-gradient(var(--cir-pri-color) 83%, var(--cir-sec-color) 83% 100%);
+}
+.cpd84{
+	background-image: conic-gradient(var(--cir-pri-color) 84%, var(--cir-sec-color) 84% 100%);
+}
+.cpd85{
+	background-image: conic-gradient(var(--cir-pri-color) 85%, var(--cir-sec-color) 85% 100%);
+}
+.cpd86{
+	background-image: conic-gradient(var(--cir-pri-color) 86%, var(--cir-sec-color) 86% 100%);
+}
+.cpd87{
+	background-image: conic-gradient(var(--cir-pri-color) 87%, var(--cir-sec-color) 87% 100%);
+}
+.cpd88{
+	background-image: conic-gradient(var(--cir-pri-color) 88%, var(--cir-sec-color) 88% 100%);
+}
+.cpd89{
+	background-image: conic-gradient(var(--cir-pri-color) 89%, var(--cir-sec-color) 89% 100%);
+}
+.cpd90{
+	background-image: conic-gradient(var(--cir-pri-color) 90%, var(--cir-sec-color) 90% 100%);
+}
+.cpd91{
+	background-image: conic-gradient(var(--cir-pri-color) 91%, var(--cir-sec-color) 91% 100%);
+}
+.cpd92{
+	background-image: conic-gradient(var(--cir-pri-color) 92%, var(--cir-sec-color) 92% 100%);
+}
+.cpd93{
+	background-image: conic-gradient(var(--cir-pri-color) 93%, var(--cir-sec-color) 93% 100%);
+}
+.cpd94{
+	background-image: conic-gradient(var(--cir-pri-color) 94%, var(--cir-sec-color) 94% 100%);
+}
+.cpd95{
+	background-image: conic-gradient(var(--cir-pri-color) 95%, var(--cir-sec-color) 95% 100%);
+}
+.cpd96{
+	background-image: conic-gradient(var(--cir-pri-color) 96%, var(--cir-sec-color) 96% 100%);
+}
+.cpd97{
+	background-image: conic-gradient(var(--cir-pri-color) 97%, var(--cir-sec-color) 97% 100%);
+}
+.cpd98{
+	background-image: conic-gradient(var(--cir-pri-color) 98%, var(--cir-sec-color) 98% 100%);
+}
+.cpd99{
+	background-image: conic-gradient(var(--cir-pri-color) 99%, var(--cir-sec-color) 99% 100%);
+}
+.cpd100{
+	background-image: conic-gradient(var(--cir-pri-color) 100%);
+}

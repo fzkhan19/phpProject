@@ -1,0 +1,71 @@
+html,body{margin:0;padding:0;font-family: "Roboto","Arial"}
+h1,p{margin:0 0 1em}
+
+/*the table will have all side single border without cellspacing */
+/*---ONLY for TABLES --*/
+.table-all-single-dark-border table {
+  border-collapse: collapse;
+}
+
+.table-all-single-dark-border table, .table-all-single-dark-border th, .table-all-single-dark-border td {
+  border: 1px solid black;
+}
+
+/*ELEMENTS POSTIONAL ------------------------------------------------------------------------------*/
+.ab-pos{
+	position: absolute;
+}
+.rel-pos{
+	position: relative;
+}
+
+/*Centering Elements------------------------------------------------------------------------------*/
+.hr-center{ /*ONLY centers horizontally*/
+	clear: both;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.vr-center{/*ONLY centers vertically*/
+	clear: both;
+	top: 50%;
+	transform: translateY(-50%);	
+}
+.hv-center{
+	clear: both;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+/* horizontal align all childs */
+.hr-allchild-center {
+  display: flex;
+  justify-content: center;
+}
+/* vertically align all childs */
+.vr-allchild-center {
+  display: flex;
+  align-items: center;
+}
+
+/* navigation icon adjustment ----------------------------------------------------------------------------*/
+.side-navigation .fa-times{
+	position: absolute;
+	top:0;
+	right: 0;
+	transition: 0.5s;
+}
+.side-navigation .fa-times:hover,.header .fa-bars:hover{
+	color:red;
+}
+.header .fa-bars{ /* this will be hidden untill the side navigation is opned*/
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	display: none;
+}
+
+/*Create any div circle --------------------------------------------------------------------------------*/
+.circle{
+	border-radius: 100%;
+}

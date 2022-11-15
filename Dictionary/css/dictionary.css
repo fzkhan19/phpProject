@@ -1,0 +1,24 @@
+
+/*the table will have all side single border without cellspacing */
+/*---ONLY for TABLES --*/
+.table-all-single-dark-border table {
+  border-collapse: collapse;
+}
+
+.table-all-single-dark-border table, .table-all-single-dark-border th, .table-all-single-dark-border td {
+  border: 1px solid black;
+}
+
+/*ELEMENTS POSTIONAL*/
+.ab-pos{
+	position: absolute;
+}
+.rel-pos{
+	position: relative;
+}
+/*Centering Elements*/
+.hr-center{ /*ONLY centers horizontally*/
+	clear: both;
+	left: 50%;
+	transform: translateX(-50%);
+}

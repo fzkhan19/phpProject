@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+}
+main{
+	display: grid;
+	height: 100vh;
+	margin: auto;
+	grid-template-columns: 1fr 1fr;
+}
+.input textarea{
+	width: 98%;
+	height: 100vh;
+	outline: none;
+	border:none;
+	border-top: 1px solid black
+}
+
+ 
